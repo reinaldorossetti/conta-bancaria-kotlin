@@ -47,57 +47,6 @@ Reduz a quantidade de código repetitivo (boilerplate) e facilita a leitura e ma
 
 **💡 Dica**: Use funções de escopo (`let`, `apply`, `run`, `also`, `with`) para tornar o código ainda mais conciso:
 
-Markdown
-Copy
-# 🌟 Guia Completo de Kotlin
-
-## Índice
-
-- [Introdução à Linguagem Kotlin](#introdução-à-linguagem-kotlin)
-- [Principais Vantagens do Uso de Kotlin](#principais-vantagens-do-uso-de-kotlin)
-- [Construtores Primário e Secundário](#construtores-primário-e-secundário)
-- [O que é o `this` dentro do Construtor](#o-que-é-o-this-dentro-do-construtor)
-- [Herança em Kotlin](#herança-em-kotlin)
-- [Polimorfismo](#polimorfismo)
-- [Classes e Formas de Uso](#classes-e-formas-de-uso)
-- [Recursos Avançados e Boas Práticas](#recursos-avançados-e-boas-práticas)
-- [Considerações Finais](#considerações-finais)
-
----
-
-## Introdução à Linguagem Kotlin
-
-Kotlin é uma linguagem de programação moderna desenvolvida pela JetBrains, executada principalmente na JVM (Java Virtual Machine), mesma plataforma do Java.
-
-Ela foi projetada para ser:
-
-- **Concisa e intuitiva**
-- **Segura contra erros comuns**
-- **Menos verbosa que Java**
-- **Totalmente interoperável com Java**, permitindo o uso de bibliotecas e frameworks existentes
-
-Atualmente, é a linguagem preferida pelo Google para desenvolvimento de aplicativos Android, sendo amplamente adotada no mercado.
-
-### 💡 Novidades Recentes do Kotlin
-
-**Kotlin 1.9 e 2.0** trouxeram melhorias significativas:
-
-- **Kotlin K2 Compiler**: Novo compilador mais rápido e eficiente, com melhor análise de tipos
-- **Data Objects**: Permite criar objetos singleton com as vantagens de `data class`
-- **Inline Value Classes**: Otimização de performance sem overhead de objetos
-- **Context Receivers**: Facilita a criação de DSLs (Domain Specific Languages)
-- **Melhorias em Coroutines**: Suporte aprimorado para programação assíncrona
-
----
-
-## Principais Vantagens do Uso de Kotlin
-
-### 1. Sintaxe Concisa e Legível 🧹
-
-Reduz a quantidade de código repetitivo (boilerplate) e facilita a leitura e manutenção do código.
-
-**💡 Dica**: Use funções de escopo (`let`, `apply`, `run`, `also`, `with`) para tornar o código ainda mais conciso:
-
 
 
 kotlin val conta = ContaBancaria("123-4", "João", 1000.0).apply { depositar(500.0) sacar(200.0) }
