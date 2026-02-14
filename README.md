@@ -410,6 +410,8 @@ conta-bancaria-kotlin/
 │   └── Main.kt                  # Exemplo de uso
 ├── build.gradle.kts
 ├── settings.gradle.kts
+├── junit-testing.MD             # 📊 Relatório detalhado de testes
+├── REGRAS-DE-NEGOCIO.md         # 📋 Regras de negócio do sistema
 └── README.md
 ```
 
@@ -442,3 +444,8 @@ Os testes cobrem:
 ✅ **ClientePJ**: Validação de CNPJ, criação, autenticação  
 ✅ **Senha Forte**: Todos os critérios OWASP (12+ chars, maiúscula, minúscula, dígito, especial, sem espaços, não comum)  
 ✅ **Edge Cases**: IDs inválidos, documentos repetidos, formatos com/sem máscara
+
+## 📚 Documentação Adicional
+
+- 📊 **[junit-testing.MD](junit-testing.MD)** - Relatório completo de testes com 50 casos, estatísticas, criticidade e métricas de qualidade
+- 📋 **[REGRAS-DE-NEGOCIO.md](REGRAS-DE-NEGOCIO.md)** - 94 regras de negócio documentadas cobrindo autenticação, operações financeiras, conformidade e segurança
